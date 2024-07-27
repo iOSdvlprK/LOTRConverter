@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87B57262C5528E5006B3C31 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B57252C5528E5006B3C31 /* ExchangeRate.swift */; };
+		D87D7B3E2C53EC890023B86A /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D7B3D2C53EC890023B86A /* ExchangeInfo.swift */; };
 		D8B737B32C51464800CA9583 /* LOTRConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B737B22C51464800CA9583 /* LOTRConverterApp.swift */; };
 		D8B737B52C51464800CA9583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B737B42C51464800CA9583 /* ContentView.swift */; };
 		D8B737B72C51464C00CA9583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B737B62C51464C00CA9583 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D87B57252C5528E5006B3C31 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		D87D7B3D2C53EC890023B86A /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		D8B737AF2C51464800CA9583 /* LOTRConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B737B22C51464800CA9583 /* LOTRConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConverterApp.swift; sourceTree = "<group>"; };
 		D8B737B42C51464800CA9583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				D8B737B22C51464800CA9583 /* LOTRConverterApp.swift */,
 				D8B737B42C51464800CA9583 /* ContentView.swift */,
+				D87D7B3D2C53EC890023B86A /* ExchangeInfo.swift */,
+				D87B57252C5528E5006B3C31 /* ExchangeRate.swift */,
 				D8B737B62C51464C00CA9583 /* Assets.xcassets */,
 				D8B737B82C51464C00CA9583 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87B57262C5528E5006B3C31 /* ExchangeRate.swift in Sources */,
+				D87D7B3E2C53EC890023B86A /* ExchangeInfo.swift in Sources */,
 				D8B737B52C51464800CA9583 /* ContentView.swift in Sources */,
 				D8B737B32C51464800CA9583 /* LOTRConverterApp.swift in Sources */,
 			);
